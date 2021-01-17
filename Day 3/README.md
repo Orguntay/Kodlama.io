@@ -10,7 +10,7 @@ Müşterinin özelliklerini içerir. (Id - Name - Surname)
 
 Müşterilere ait ekleme - silme -listeleme - güncelleme işlemlerinin yapıldığı fonksiyonları içerir.
 
-Müşteri ekleme işlemi
+### Müşteri ekleme işlemi
 ```cs
  public void AddCustomer(Customer customer)
 {
@@ -18,7 +18,7 @@ Müşteri ekleme işlemi
 }
 ```
 
-Müşteri Listeleme işlemi
+### Müşteri Listeleme işlemi
 ```cs
 public Customer<List> GetCustomerList()
 {
@@ -32,7 +32,7 @@ public Customer<List> GetCustomerList()
 }
 ```
 
-Müşteri Silme işlemi
+### Müşteri Silme işlemi
 ```cs
 public void DeleteCustomer(Customer customer)
 {
@@ -41,7 +41,7 @@ public void DeleteCustomer(Customer customer)
 }
 ```
 
-Müşteri Güncelleme işlemi
+### Müşteri Güncelleme işlemi
 ```cs
 public void UpdateCustomer(Customer customer)
 {
