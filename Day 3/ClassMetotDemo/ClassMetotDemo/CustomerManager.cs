@@ -14,7 +14,7 @@ namespace ClassMetotDemo
         }
         public void GetCustomerList()
         {
-            foreach (var item in customers)
+            foreach (var item in customers) // custumer olmadığı için hata vereceğini düşünüyorum
             {
                 Console.WriteLine("---------------------------------");
                 Console.WriteLine("Müşteri Adı :" + item.Name);
