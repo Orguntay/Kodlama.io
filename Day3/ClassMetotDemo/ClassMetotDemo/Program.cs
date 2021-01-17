@@ -45,7 +45,6 @@ namespace ClassMetotDemo
 
             //Tüm müşterilerin gösterilmesi
             customerManager.GetCustomerList();
-
         }
     }
 }
